@@ -9,11 +9,12 @@
 import React from 'react';
 import Container from './src/pages/Container';
 import ModalTest from './src/components/ModalTest';
+import PopoverTest from './src/components/PopoverTest';
 
 const App = () => {
   return (
     <Container>
-      <ModalTest />
+      <PopoverTest />
     </Container>
   );
 };
